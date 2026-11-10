@@ -1,0 +1,347 @@
+/* ==========================================================================
+   ESTILOS FORMALES / MARCA RAY-BAN (Fondo claro, Marrones Cacao/Cuero, Negro)
+   ========================================================================== */
+
+/* CONFIGURACIÓN GLOBAL */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  color: #2b2523;               /* Negro/marrón muy oscuro */
+  background-color: #faf8f5;     /* Blanco marfil / crema muy suave */
+}
+
+/* CONTENEDOR PRINCIPAL */
+main {
+  max-width: 54rem;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+/* TARJETAS/SECCIONES BLANCAS CON DETALLES EN MARRÓN */
+section {
+  background-color: #ffffff;
+  border: 1px solid #e8e2d9;
+  border-radius: 8px;
+  padding: 2.2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 6px rgba(60, 40, 30, 0.04);
+}
+
+/* --------------------------------------------------------------------------
+   CABECERA E IDENTIDAD DE MARCA (Negro sofisticado y Marrón Cuero)
+   -------------------------------------------------------------------------- */
+header {
+  background-color: #1e1b18;     /* Negro cálido / carbón */
+  color: #ffffff;
+  text-align: center;
+  padding: 3.5rem 1.5rem 2.5rem 1.5rem;
+  border-bottom: 4px solid #7a4e32; /* Marrón cuero icónico */
+}
+
+.header-container {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.brand-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #7a4e32;    /* Marrón cuero */
+  padding: 0.25rem 0.75rem;
+  border-radius: 2px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0 0 0.8rem 0;
+  color: #ffffff;
+}
+
+.subtitle {
+  font-size: 1.1rem;
+  color: #d6cbbf;              /* Beige suave */
+  margin: 0;
+  font-weight: 300;
+}
+
+/* --------------------------------------------------------------------------
+   NAVEGACIÓN STICKY (Oscura con detalles marrón cacao)
+   -------------------------------------------------------------------------- */
+nav#menu-principal {
+  position: sticky;
+  top: 0;
+  background-color: #2b2523;     /* Marrón cacao oscuro */
+  border-bottom: 1px solid #423835;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  z-index: 100;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+nav a {
+  display: block;
+  color: #e5ded4;
+  font-size: 0.88rem;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 0.5rem 0.85rem;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  color: #ffffff;
+  background-color: #7a4e32;    /* Marrón cuero al pasar el ratón */
+}
+
+/* --------------------------------------------------------------------------
+   TIPOGRAFÍA Y ENCABEZADOS
+   -------------------------------------------------------------------------- */
+h2 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1e1b18;
+  border-bottom: 2px solid #7a4e32; /* Línea de acento en marrón */
+  padding-bottom: 0.4rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+}
+
+h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #5c3a25;              /* Marrón medio */
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+strong {
+  color: #1e1b18;
+  font-weight: 600;
+}
+
+em {
+  font-style: italic;
+  color: #7a4e32;
+}
+
+/* BLOQUE DESTACADO */
+.destacado {
+  background-color: #f7f3ed;     /* Tono crema cálido */
+  border-left: 4px solid #7a4e32;
+  padding: 1rem 1.25rem;
+  margin-top: 1.2rem;
+  border-radius: 0 4px 4px 0;
+}
+
+.destacado h3 {
+  margin-top: 0;
+}
+
+/* --------------------------------------------------------------------------
+   LISTAS Y ELEMENTOS FORMALES
+   -------------------------------------------------------------------------- */
+.lista-beneficios, .timeline-lista, .lista-recursos {
+  padding-left: 1.2rem;
+}
+
+.lista-beneficios li, .timeline-lista li, .lista-recursos li {
+  margin-bottom: 0.8rem;
+  color: #38302c;
+}
+
+/* --------------------------------------------------------------------------
+   ENLACES
+   -------------------------------------------------------------------------- */
+a {
+  color: #7a4e32;              /* Enlaces en tono marrón corporativo */
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #1e1b18;
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: 2px solid #7a4e32;
+  outline-offset: 2px;
+}
+
+.saltar {
+  position: absolute;
+  top: -100px;
+  left: 1rem;
+  background-color: #1e1b18;
+  color: #ffffff;
+  padding: 0.5rem 1rem;
+  z-index: 1000;
+  font-weight: 600;
+}
+
+.saltar:focus {
+  top: 1rem;
+}
+
+/* --------------------------------------------------------------------------
+   GALERÍA Y TARJETAS
+   -------------------------------------------------------------------------- */
+.grid-galeria {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.2rem;
+}
+
+.card-producto {
+  border: 1px solid #e8e2d9;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.card-content {
+  padding: 1rem 1.2rem;
+}
+
+.card-content h3 {
+  margin-top: 0;
+}
+
+.foto {
+  margin: 0;
+  background-color: #f5f0e8;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 320px;
+  object-fit: cover;
+}
+
+figcaption {
+  font-size: 0.82rem;
+  color: #554a44;
+  text-align: center;
+  padding: 0.5rem 0.8rem;
+  background-color: #eae3d8;
+  border-top: 1px solid #dfd6c8;
+}
+
+/* --------------------------------------------------------------------------
+   TABLA DE DATOS ELEGANTE
+   -------------------------------------------------------------------------- */
+.tabla-con-scroll {
+  overflow-x: auto;
+  margin-top: 1.2rem;
+  border: 1px solid #e8e2d9;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+  text-align: left;
+}
+
+caption {
+  font-size: 0.85rem;
+  color: #665b55;
+  padding: 0.5rem 0;
+  text-align: left;
+  font-style: italic;
+}
+
+th, td {
+  padding: 0.85rem 1rem;
+  border-bottom: 1px solid #e8e2d9;
+}
+
+thead th {
+  background-color: #2b2523;   /* Cabecera oscura cacao */
+  color: #ffffff;
+  font-weight: 600;
+  border-bottom: 2px solid #1e1b18;
+}
+
+tbody th[scope="row"] {
+  background-color: #f7f3ed;   /* Fila de cabecera en crema */
+  font-weight: 600;
+  color: #1e1b18;
+}
+
+tbody tr:hover {
+  background-color: #f2ece4;
+}
+
+/* --------------------------------------------------------------------------
+   PIE DE PÁGINA (FOOTER)
+   -------------------------------------------------------------------------- */
+footer {
+  background-color: #1e1b18;
+  color: #a89c92;
+  font-size: 0.85rem;
+  padding: 3rem 1.5rem 2rem 1.5rem;
+  border-top: 4px solid #7a4e32;
+}
+
+.footer-container {
+  max-width: 54rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.copyright {
+  color: #e5ded4;
+  font-weight: 500;
+  margin-bottom: 0.4rem;
+}
+
+.disclaimer {
+  margin-bottom: 1.5rem;
+}
+
+.arriba-link {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 48rem) {
+  h1 { font-size: 1.6rem; }
+  nav ul { flex-direction: column; }
+  section { padding: 1.3rem; }
+}
